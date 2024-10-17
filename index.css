@@ -49,6 +49,10 @@ a,
   font-weight: 900;
 }
 
+.hero-image {
+  width: 400px;
+}
+
 button {
   background-color: #3882f6;
   color: #f9faf8;
@@ -105,4 +109,32 @@ footer {
   align-items: center;
   color: #f9faf8;
   padding: 1rem 0;
+}
+
+.action {
+  color: #f9faf8;
+  background-color: #f9faf8;
+  margin: 60px 100px;
+}
+
+.action-text-bold {
+  font-weight: 700;
+}
+.action-text,
+.action-text-bold {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 30px 100px;
+  border-radius: 5px;
+}
+
+.button {
+  border: 1px solid #f9faf8;
 }

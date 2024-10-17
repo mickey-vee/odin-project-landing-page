@@ -97,3 +97,12 @@ button {
 .author {
   text-align: end;
 }
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  padding: 1rem 0;
+}

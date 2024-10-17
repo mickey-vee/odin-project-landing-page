@@ -56,3 +56,27 @@ button {
   border: none;
   border-radius: 10px;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.info-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card-image,
+.card {
+  width: 150px;
+}
